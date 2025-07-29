@@ -1,0 +1,11 @@
+.mainWrapper {
+  background: var(--petfood-background);
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.contentWrapper {
+  max-width: var(--petfood-width);
+  margin: 0 auto;
+}

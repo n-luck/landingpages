@@ -1,0 +1,55 @@
+.iconbannerWrapper {
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.iconbannerWrapper h2 {
+  font-size: 2rem;
+}
+
+.iconbannerWrapper p {
+  margin: 0.5rem 0 0;
+  font-size: 1.25rem;
+}
+
+.iconWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.iconItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.iconItem .icon {
+  font-size: 6.5rem;
+}
+
+p.iconCopy {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: var(--font-roboto-condensed);
+}
+
+@media screen and (min-width: 1200px) {
+  .iconbannerWrapper {
+    padding: 3rem 0;
+  }
+
+  .iconWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+  }
+}

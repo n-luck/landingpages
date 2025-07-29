@@ -1,0 +1,1 @@
+export { Iconbanner } from "./Iconbanner";

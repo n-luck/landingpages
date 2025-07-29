@@ -1,0 +1,1 @@
+export { ContentBanner } from "./ContentBanner";

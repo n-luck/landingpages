@@ -1,0 +1,42 @@
+.scrollBannerWrapper {
+  padding: 1rem;
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  background-color: var(--petfood-background-tertiary);
+  transition: visibility 0s linear 300ms, opacity 500ms;
+  box-sizing: border-box;
+}
+
+.scrollBannerVisible {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 500ms;
+}
+
+.scrollBannerContent {
+  max-width: var(--petfood-width);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.scrollBannerContent h3 {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.scrollBannerContent a {
+  margin: 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .scrollBannerContent h3 {
+    font-size: 2rem;
+  }
+}

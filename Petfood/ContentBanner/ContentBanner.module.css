@@ -1,0 +1,70 @@
+.contentBanner {
+  display: flex;
+  flex-direction: column;
+}
+
+.contentBannerWrapper {
+  margin: 1rem;
+  background-color: #fff;
+  position: relative;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentBannerImage {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  max-height: 25rem;
+}
+
+.contentBannerCopy {
+  padding: 1rem 1.5rem 1.5rem;
+  box-sizing: border-box;
+}
+
+.contentBannerCopy p {
+  margin: 0.25rem 0 0 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .contentBannerWrapper {
+    flex-direction: row;
+    margin: 3rem auto 0;
+  }
+
+  .contentBannerWrapper {
+    border-radius: 0 0 10px 10px;
+  }
+
+  .contentBannerImage {
+    max-width: 50%;
+    min-height: 20rem;
+    max-height: 50vh;
+    border-radius: 0 0 0 10px;
+    overflow: hidden;
+  }
+
+  .contentBannerCopy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+    padding: 0 7.5rem;
+  }
+
+  .contentBannerCopy h2 {
+    font-size: 2rem;
+  }
+
+  .contentBannerCopy p {
+    font-size: 1.25rem;
+    margin-top: 0.75rem;
+  }
+
+  .contentBannerOrder {
+    order: 2;
+    border-radius: 0 0 10px 0;
+  }
+}

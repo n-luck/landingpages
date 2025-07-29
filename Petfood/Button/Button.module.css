@@ -1,0 +1,35 @@
+.primary {
+  border: none;
+  border-radius: 0;
+  background-color: var(--petfood-highlight);
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  color: #fff;
+  cursor: pointer;
+  font-family: var(--font-roboto-condensed);
+  width: 100%;
+  box-sizing: border-box;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondary {
+  background-color: var(--petfood-highlight-hover);
+}
+
+@media screen and (min-width: 1200px) {
+  .primary {
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .primary:hover {
+    background-color: var(--petfood-highlight-hover);
+  }
+
+  .secondary:hover {
+    background-color: var(--petfood-highlight);
+  }
+}
